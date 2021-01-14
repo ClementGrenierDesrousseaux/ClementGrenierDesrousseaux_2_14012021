@@ -1,4 +1,67 @@
 *
 {
 	font-family: 'Raleway', arial, sans-serif;
+
+}
+
+#bloc_page
+{
+	width: 1200px;
+	margin: auto;
+}
+
+/* FOOTER */
+
+footer
+{
+	background-color: #f2f2f2;
+	display: flex;
+
+}
+
+#nos_hebergements
+{
+	margin-right: 225px;
+	margin-left: 225px;
+}
+
+#a_propos
+{
+	margin-left: 50px;
+}
+
+footer nav ul
+{
+	list-style-type: none;
+	margin-left: -40px;
+}
+
+footer nav a 
+{
+	text-decoration: none;
+	color: black;
+}
+
+footer nav li
+{
+	margin-bottom: 15px;
+}
+
+footer nav
+{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-size: 0.8em;
+}
+
+footer p
+{
+	font-weight: bold;
+}
+
+footer nav a:hover
+{
+	color: #0065fc;
+	border-bottom: 1px solid #0065fc;		/*Chox du bleu pour la couleur de hover pour rapperler les couleurs du site */
+
 }
