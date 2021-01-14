@@ -277,6 +277,231 @@ input
 
 
 
+/* SECTION PRINCIPALE */
+
+
+article
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #f2f2f2;
+	width: 700px;
+	height: 600px;
+	border: 1px solid #f2f2f2;
+	border-radius: 20px;
+	flex-wrap: wrap;
+	z-index: 1;
+}
+
+
+aside
+{
+	display: flex;
+	flex-direction: column;
+	height: 600px;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 20px;
+}
+
+
+#hebergements_populaires
+{
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.9em;
+}
+
+
+#hebergements_populaires a
+{
+	text-decoration: none;
+	color: black;
+}
+
+
+#Auberge_cannebiere
+{
+	background: url("images/hebergements/s/cannebiere_s.jpg") no-repeat;
+	background-size: contain;
+	height: 150px;
+	z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SECTION ACTIVITES */
+
+
+#colonne2
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#colonne4
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#activites
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: green;
+	height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
