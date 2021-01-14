@@ -27,19 +27,20 @@
         <section id="recherche">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
-            <i class="fas fa-map-marker-alt"></i>
+            
             <div id="formulaire_recherche">
+            	<i class="fas fa-map-marker-alt"></i>
                 <form method="post" action="traitement.php">
-                    <input type="search" name="recherve_ville">
-                    <input type="submit" name="bouton_recherche">
+                    <input type="search" name="recherve_ville" id="recherve_ville" placeholder="Ex: Marseille, France">
+                    <input type="submit" value="Rechercher" name="bouton_recherche" id="bouton_recherche">
                 </form>
             </div>
-            <div>
-                <p>Filtres</p>
-                <i class="fas fa-money-bill-wave"> Economique</i>
-                <i class="fas fa-child"> Familial</i>
-                <i class="fas fa-heart"> Romantique</i>
-                <i class="fas fa-dog"> Animaux autorisés</i>
+            <div id="filtre_css">
+                <p id="filtre_p">Filtres</p>
+                <div id="economie"><i class="fas fa-money-bill-wave"></i><p>Economique</p></div>
+                <div id="familial"><i class="fas fa-child"> Familial</i></div>
+                <div id="romantique"><i class="fas fa-heart"> Romantique</i></div>
+                <div id="animaux"><i class="fas fa-dog"> Animaux autorisés</i></div>
             </div>
             <div>
                 <i class="fas fa-info"></i>
