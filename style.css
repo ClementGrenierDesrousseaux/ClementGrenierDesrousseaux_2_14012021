@@ -6,7 +6,7 @@
 
 #bloc_page
 {
-	width: 1200px;
+	width: 1100px;
 	margin: auto;
 }
 
@@ -280,26 +280,21 @@ input
 /* SECTION PRINCIPALE */
 
 
-article
+#article
 {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
 	background-color: #f2f2f2;
-	width: 700px;
-	height: 600px;
+	width: 800px;
+	height: 630px;
 	border: 1px solid #f2f2f2;
 	border-radius: 20px;
-	flex-wrap: wrap;
-	z-index: 1;
+	
 }
 
 
 aside
 {
-	display: flex;
-	flex-direction: column;
-	height: 600px;
+	width: 580px;
+	height: 630px;
 	background-color: #f2f2f2;
 	border: 1px solid #f2f2f2;
 	border-radius: 20px;
@@ -308,9 +303,7 @@ aside
 
 #hebergements_populaires
 {
-	display: flex;
-	justify-content: space-between;
-	font-size: 0.9em;
+	font-size: 0.4em;
 }
 
 
@@ -321,23 +314,201 @@ aside
 }
 
 
-#Auberge_cannebiere
+
+#img_cannebiere
 {
 	background: url("images/hebergements/s/cannebiere_s.jpg") no-repeat;
 	background-size: contain;
-	height: 150px;
-	z-index: 2;
+	height: 165px;
+	border: 5px solid white;
+	border-radius: 20px;
+}
+
+#description_cannebiere
+{
+	background-color: white;
+	background-size: contain;
+	margin-top: -35px;
+	width: 200px;
+	height: 85px;
+	border: 5px solid white;
+	border-radius: 0px 0px 20px 20px;
 }
 
 
 
 
+#img_port
+{
+	background: url("images/hebergements/s/cannebiere_s.jpg") no-repeat;
+	background-size: contain;
+	height: 165px;
+	border: 5px solid white;
+	border-radius: 20px;
+}
+
+#description_hotel_port
+{
+	background-color: white;
+	background-size: contain;
+	margin-top: -35px;
+	width: 200px;
+	height: 85px;
+	border: 5px solid white;
+	border-radius: 0px 0px 20px 20px;
+}
+
+
+#img_mouette
+{
+	background: url("images/hebergements/s/cannebiere_s.jpg") no-repeat;
+	background-size: contain;
+	height: 165px;
+	border: 5px solid white;
+	border-radius: 20px;
+}
+
+#description_mouette
+{
+	background-color: white;
+	background-size: contain;
+	margin-top: -35px;
+	width: 200px;
+	height: 85px;
+	border: 5px solid white;
+	border-radius: 0px 0px 20px 20px;
+}
+
+
+#img_mer
+{
+	background: url("images/hebergements/s/cannebiere_s.jpg") no-repeat;
+	background-size: contain;
+	height: 165px;
+	border: 5px solid white;
+	border-radius: 20px;
+}
+
+#description_mer
+{
+	background-color: white;
+	background-size: contain;
+	margin-top: -35px;
+	width: 200px;
+	height: 85px;
+	border: 5px solid white;
+	border-radius: 0px 0px 20px 20px;
+}
+
+
+
+#img_panier
+{
+	background: url("images/hebergements/s/cannebiere_s.jpg") no-repeat;
+	background-size: contain;
+	height: 165px;
+	border: 5px solid white;
+	border-radius: 20px;
+}
+
+#description_panier
+{
+	background-color: white;
+	background-size: contain;
+	margin-top: -35px;
+	width: 200px;
+	height: 85px;
+	border: 5px solid white;
+	border-radius: 0px 0px 20px 20px;
+}
 
 
 
 
+#img_amina
+{
+	background: url("images/hebergements/s/cannebiere_s.jpg") no-repeat;
+	background-size: contain;
+	height: 165px;
+	border: 5px solid white;
+	border-radius: 20px;
+}
+
+#description_amina
+{
+	background-color: white;
+	background-size: contain;
+	margin-top: -35px;
+	width: 200px;
+	height: 85px;
+	border: 5px solid white;
+	border-radius: 0px 0px 20px 20px;
+}
 
 
+#premiere_ligne
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 30px
+}
+
+#deuxieme_ligne
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+
+#ancre_hebergement
+{
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+#afficher_plus
+{
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+
+/* ASIDE */
+
+
+
+#titre_aside
+{
+
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+
+
+#img_soleil
+{
+	background: url("images/hebergements/s/cannebiere_s.jpg") no-repeat;
+	background-size: contain;
+	height: 80px;
+
+}
+
+
+
+#description_soleil
+{
+	background-color: white;
+	background-size: contain;
+	margin-top: -35px;
+	width: 100px;
+	height: 85px;
+	border: 5px solid white;
+	border-radius: 0px 0px 20px 20px;
+}
 
 
 
