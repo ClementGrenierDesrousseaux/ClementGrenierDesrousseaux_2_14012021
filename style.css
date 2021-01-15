@@ -84,7 +84,6 @@ header nav a:hover
 
 }
 
-input
 {
 	height: 30px;
 	border: 1px solid #f2f2f2;
@@ -99,14 +98,14 @@ input
 	align-items: center;
 	width: 50px;
 	height: auto;
-	border-radius: 10px 0px 0px 10px
+	border-radius: 10px 0px 0px 10px;
 }
 
 #bouton_recherche
 {
 	margin-left: -4px;
 	color: white;
-	background-color: #0065ff
+	background-color: #0065ff;
 
 }
 
@@ -134,8 +133,8 @@ input
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 30px;
-	height: 30px;
+	width: 29px;
+	height: 29px;
 	background-color: #deebff;
 	border: 2px solid #deebff;
 	border-radius: 30px;
@@ -158,14 +157,19 @@ input
 	font-weight: bold;
 }
 
+#texte_economie:hover
+{
+	background-color: #f2f2f2;
+}
+
 
 #familial
 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 30px;
-	height: 30px;
+	width: 29px;
+	height: 29px;
 	background-color: #deebff;
 	border: 2px solid #deebff;
 	border-radius: 30px;
@@ -189,14 +193,19 @@ input
 	font-weight: bold;
 }
 
+#texte_familial:hover
+{
+	background-color: #f2f2f2;
+}
+
 
 #romantique
 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 30px;
-	height: 30px;
+	width: 29px;
+	height: 29px;
 	background-color: #deebff;
 	border: 2px solid #deebff;
 	border-radius: 30px;
@@ -220,13 +229,18 @@ input
 	font-weight: bold;
 }
 
+#texte_romantique:hover
+{
+	background-color: #f2f2f2;
+}
+
 #animaux
 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 30px;
-	height: 30px;
+	width: 29px;
+	height: 29px;
 	background-color: #deebff;
 	border: 2px solid #deebff;
 	border-radius: 30px;
@@ -250,6 +264,10 @@ input
 	font-weight: bold;
 }
 
+#texte_animaux:hover
+{
+	background-color: #f2f2f2;
+}
 
 /* SECTION RECHERCHE FONTAWESOME INFORMATION */
 
@@ -340,7 +358,7 @@ aside
 
 #img_port
 {
-	background: url("images/hebergements/s/cannebiere_s.jpg") no-repeat;
+	background: url("images/hebergements/s/port_s.jpg") no-repeat;
 	background-size: contain;
 	height: 165px;
 	border: 5px solid white;
@@ -361,7 +379,7 @@ aside
 
 #img_mouette
 {
-	background: url("images/hebergements/s/cannebiere_s.jpg") no-repeat;
+	background: url("images/hebergements/s/mouette_s.jpg") no-repeat;
 	background-size: contain;
 	height: 165px;
 	border: 5px solid white;
@@ -382,7 +400,7 @@ aside
 
 #img_mer
 {
-	background: url("images/hebergements/s/cannebiere_s.jpg") no-repeat;
+	background: url("images/hebergements/s/mer_s.jpg") no-repeat;
 	background-size: contain;
 	height: 165px;
 	border: 5px solid white;
@@ -404,7 +422,7 @@ aside
 
 #img_panier
 {
-	background: url("images/hebergements/s/cannebiere_s.jpg") no-repeat;
+	background: url("images/hebergements/s/panier_s.jpg") no-repeat;
 	background-size: contain;
 	height: 165px;
 	border: 5px solid white;
@@ -427,7 +445,7 @@ aside
 
 #img_amina
 {
-	background: url("images/hebergements/s/cannebiere_s.jpg") no-repeat;
+	background: url("images/hebergements/s/amina_s.jpg") no-repeat;
 	background-size: contain;
 	height: 165px;
 	border: 5px solid white;
@@ -482,39 +500,11 @@ aside
 
 #titre_aside
 {
-
+	display: flex;
+	justify-content: space-between;
 	margin-left: 15px;
 	margin-right: 15px;
 }
-
-
-
-#img_soleil
-{
-	background: url("images/hebergements/s/cannebiere_s.jpg") no-repeat;
-	background-size: contain;
-	height: 80px;
-
-}
-
-
-
-#description_soleil
-{
-	background-color: white;
-	background-size: contain;
-	margin-top: -35px;
-	width: 100px;
-	height: 85px;
-	border: 5px solid white;
-	border-radius: 0px 0px 20px 20px;
-}
-
-
-
-
-
-
 
 
 
@@ -566,23 +556,139 @@ aside
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: green;
 	height: 400px;
+	font-size: 0.5em;
 }
 
 
 
 
 
+#img_vieux_port
+{
+	background: url("images/activites/s/port_s.jpg") no-repeat;
+	background-size: contain;
+	height: 350px;
+	border: 5px solid white;
+	border-radius: 20px;
+}
+
+#texte_vieux_port
+{
+	background-color: white;
+	background-size: contain;
+	margin-top: -35px;
+	width: 250px;
+	height: 85px;
+	border: 5px solid white;
+	border-radius: 0px 0px 20px 20px;
+}
+
+
+#img_fort
+{
+	background: url("images/activites/s/fort_s.jpg") no-repeat;
+	background-size: contain;
+	height: 125px;
+	border: 5px solid white;
+	border-radius: 20px;
+}
+
+#texte_fort
+{
+	background-color: white;
+	background-size: contain;
+	margin-top: -35px;
+	width: 250px;
+	height: 85px;
+	border: 5px solid white;
+	border-radius: 0px 0px 20px 20px;
+}
+
+
+#img_frioul
+{
+	background: url("images/activites/s/frioul_s.jpg") no-repeat;
+	background-size: contain;
+	height: 125px;
+	border: 5px solid white;
+	border-radius: 20px;
+}
+
+#texte_frioul
+{
+	background-color: white;
+	background-size: contain;
+	margin-top: -35px;
+	width: 250px;
+	height: 85px;
+	border: 5px solid white;
+	border-radius: 0px 0px 20px 20px;
+}
+
+
+#img_calanques
+{
+	background: url("images/activites/s/calanques_s.jpg") no-repeat;
+	background-size: contain;
+	height: 350px;
+	border: 5px solid white;
+	border-radius: 20px;
+}
+
+#texte_calanques
+{
+	background-color: white;
+	background-size: contain;
+	margin-top: -35px;
+	width: 250px;
+	height: 85px;
+	border: 5px solid white;
+	border-radius: 0px 0px 20px 20px;
+}
+
+
+#img_garde
+{
+	background: url("images/activites/garde_s.jpg") no-repeat;
+	background-size: contain;
+	height: 125px;
+	border: 5px solid white;
+	border-radius: 20px;
+}
+
+#texte_garde
+{
+	background-color: white;
+	background-size: contain;
+	margin-top: -35px;
+	width: 250px;
+	height: 85px;
+	border: 5px solid white;
+	border-radius: 0px 0px 20px 20px;
+}
 
 
 
+#img_longchamp
+{
+	background: url("images/activites/s/longchamp_s.jpg") no-repeat;
+	background-size: contain;
+	height: 125px;
+	border: 5px solid white;
+	border-radius: 20px;
+}
 
-
-
-
-
-
+#texte_longchamp
+{
+	background-color: white;
+	background-size: contain;
+	margin-top: -35px;
+	width: 250px;
+	height: 85px;
+	border: 5px solid white;
+	border-radius: 0px 0px 20px 20px;
+}
 
 
 
