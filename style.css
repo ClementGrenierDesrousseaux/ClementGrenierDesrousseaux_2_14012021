@@ -240,39 +240,23 @@ header nav a:hover {
 #blocfiltre {
     display: flex;
     align-items: center;
-    background-color: green;
+    margin-top: 15px;
 }
 
-#filtre_p
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30px;
-    height: 30px;
-}
-
-#tous_filtres
-{
-    display: flex;
-
-    align-items: center;
-}
 
 .filtre {
     display: flex;
     align-items: center;
     height: 30px;
-    margin-top: 20px;
-    margin-right: 20px;
+    margin-left: 20px; 
 
 }
 
 .icone {
-    background-color: #deebff;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #deebff;
     width: 30px;
     height: 30px;
     border-radius: 20px;
@@ -281,9 +265,6 @@ header nav a:hover {
 }
 
 .filtre input {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
     margin-left: -20px;
     height: 30px;
     width: contain;
@@ -294,10 +275,12 @@ header nav a:hover {
     z-index: 1;
 }
 
-.filtre input:active
+.filtre input:hover
 {
-    background-color: red;
+    background-color: #deebff;
+    border-color: #deebff;
 }
+
 
 
 
@@ -362,6 +345,7 @@ article figure {
     border-radius: 20px;
     border-left: none;
     margin-left: -30px;
+    box-shadow: 0px 0px 10px 10px #f2f2f2;
 }
 
 article figure img {
@@ -503,6 +487,7 @@ aside figure {
     border: 3px solid white;
     border-radius: 20px;
     border-left: none;
+    box-shadow: 0px 0px 10px 10px #f2f2f2;
 }
 
 aside figure img {
@@ -595,6 +580,7 @@ aside figcaption:hover
     border-left: none;
     margin-right: 25px;
     margin-left: 25px;
+    box-shadow: 0px 0px 10px 10px #f2f2f2;
 
 }
 
