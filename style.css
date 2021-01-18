@@ -306,18 +306,6 @@ header nav a:hover
 /* SECTION PRINCIPALE */
 
 
-#article
-{
-	background-color: #f2f2f2;
-	width: 800px;
-	height: 630px;
-	border: 1px solid #f2f2f2;
-	border-radius: 20px;
-	
-}
-
-
-
 
 
 #hebergements_populaires
@@ -334,136 +322,65 @@ header nav a:hover
 }
 
 
-
-#img_cannebiere
+article
 {
-	background: url("images/hebergements/s/cannebiere_s.jpg") no-repeat;
-	background-size: contain;
-	height: 165px;
-	border: 5px solid white;
+	background-color: #f2f2f2;
+	width: 800px;
+	height: 500px;
+	border: 1px solid #f2f2f2;
 	border-radius: 20px;
+	font-size: 1.5em
+	
 }
 
-#description_cannebiere
+article figure
 {
-	background-color: white;
-	background-size: contain;
-	margin-top: -35px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	width: 200px;
-	height: 85px;
-	border: 5px solid white;
-	border-radius: 0px 0px 20px 20px;
-}
-
-
-
-
-#img_port
-{
-	background: url("images/hebergements/s/port_s.jpg") no-repeat;
-	background-size: contain;
-	height: 165px;
-	border: 5px solid white;
+	height: 150px;
+	background-color: white;
+	border: 3px solid white;
 	border-radius: 20px;
+	border-left: none;
+	margin-left: -30px;
 }
 
-#description_hotel_port
+article figure img
 {
-	background-color: white;
-	background-size: contain;
-	margin-top: -35px;
-	width: 200px;
-	height: 85px;
-	border: 5px solid white;
-	border-radius: 0px 0px 20px 20px;
+	width: 197px;
+	height: 100px;
+	border: 3px solid white;
+	border-radius: 20px 20px 0px 0px;
+	margin-top: -3px;
+	margin-left: 3px;
 }
 
 
-#img_mouette
+
+article figcaption
 {
-	background: url("images/hebergements/s/mouette_s.jpg") no-repeat;
-	background-size: contain;
-	height: 165px;
-	border: 5px solid white;
-	border-radius: 20px;
-}
-
-#description_mouette
-{
-	background-color: white;
-	background-size: contain;
-	margin-top: -35px;
-	width: 200px;
-	height: 85px;
-	border: 5px solid white;
-	border-radius: 0px 0px 20px 20px;
-}
-
-
-#img_mer
-{
-	background: url("images/hebergements/s/mer_s.jpg") no-repeat;
-	background-size: contain;
-	height: 165px;
-	border: 5px solid white;
-	border-radius: 20px;
-}
-
-#description_mer
-{
-	background-color: white;
-	background-size: contain;
-	margin-top: -35px;
-	width: 200px;
-	height: 85px;
-	border: 5px solid white;
-	border-radius: 0px 0px 20px 20px;
-}
-
-
-
-#img_panier
-{
-	background: url("images/hebergements/s/panier_s.jpg") no-repeat;
-	background-size: contain;
-	height: 165px;
-	border: 5px solid white;
-	border-radius: 20px;
-}
-
-#description_panier
-{
-	background-color: white;
-	background-size: contain;
-	margin-top: -35px;
-	width: 200px;
-	height: 85px;
-	border: 5px solid white;
-	border-radius: 0px 0px 20px 20px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-left: -80px;
 }
 
 
 
 
-#img_amina
-{
-	background: url("images/hebergements/s/amina_s.jpg") no-repeat;
-	background-size: contain;
-	height: 165px;
-	border: 5px solid white;
-	border-radius: 20px;
-}
 
-#description_amina
-{
-	background-color: white;
-	background-size: contain;
-	margin-top: -35px;
-	width: 200px;
-	height: 85px;
-	border: 5px solid white;
-	border-radius: 0px 0px 20px 20px;
-}
+
+
+
+
+
+
+
+
+
 
 
 #premiere_ligne
@@ -471,7 +388,8 @@ header nav a:hover
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	margin-bottom: 30px
+	margin-bottom: 30px;
+	margin-left: 50px;
 }
 
 #deuxieme_ligne
@@ -479,6 +397,7 @@ header nav a:hover
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	margin-left: 50px;
 }
 
 
@@ -545,11 +464,12 @@ header nav a:hover
 aside
 {
 	width: 350px;
-	height: 630px;
+	height: 500px;
 	background-color: #f2f2f2;
 	border: 1px solid #f2f2f2;
 	border-radius: 20px;
-	font-size: 1.8em
+	font-size: 1.8em;
+	margin-left: 50px;
 }
 
 #titre_aside
@@ -564,7 +484,7 @@ aside
 }
 
 
-figure
+aside figure
 {
 	display: flex;
 	justify-content: flex-start;
@@ -577,7 +497,7 @@ figure
 	border-left: none;
 }
 
-figure img
+aside figure img
 {
 	width: 100px;
 	height: 100px;
@@ -585,7 +505,7 @@ figure img
 	border-radius: 20px 0px 0px 20px;
 }
 
-figcaption
+aside figcaption
 {
 	display: flex;
 	justify-content: space-around;
