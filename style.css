@@ -325,6 +325,26 @@ header nav a:hover {
 }
 
 
+
+section i
+{
+	color: #0065FC;
+}
+
+#etoiles
+{
+	display: flex;
+	align-items: center;
+}
+
+#etoile_grise i
+{
+	display: flex;
+	align-items: center;
+	color: #d9d9d9;
+}
+
+
 article {
     background-color: #f2f2f2;
     width: 800px;
@@ -466,6 +486,11 @@ aside {
     margin-left: 50px;
 }
 
+#icone_noire 
+{
+	color: grey;
+}
+
 #titre_aside {
     display: flex;
     justify-content: space-between;
@@ -571,11 +596,10 @@ aside figcaption:hover
 #activites figure {
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 250px;
     height: 350px;
     background-color: white;
-    border: 3px solid white;
+    border: 0px solid white;
     border-radius: 20px;
     border-left: none;
     margin-right: 25px;
@@ -585,12 +609,10 @@ aside figcaption:hover
 }
 
 #activites figure img {
-    width: 247px;
-    height: 300px;
-    border: 3px solid white;
+    width: 250px;
+    height: 315px;
+    border: 0px solid white;
     border-radius: 20px 20px 0px 0px;
-    margin-top: -3px;
-    margin-left: 3px;
 }
 
 
@@ -599,8 +621,7 @@ aside figcaption:hover
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    justify-content: flex-start;
-    text-align: center;
+
 }
 
 
@@ -615,22 +636,19 @@ aside figcaption:hover
 #colonne2 figure {
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 200px;
     height: 150px;
     background-color: white;
-    border: 3px solid white;
+    border: 0px solid white;
     border-radius: 20px;
     border-left: none;
 }
 
 #colonne2 figure img {
-    width: 197px;
-    height: 125px;
-    border: 3px solid white;
+    width: 200px;
+    height: 115px;
+    border: px solid white;
     border-radius: 20px 20px 0px 0px;
-    margin-top: -3px;
-    margin-left: 3px;
 }
 
 
@@ -639,7 +657,6 @@ aside figcaption:hover
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    justify-content: flex-start;
 }
 
 
@@ -659,31 +676,29 @@ aside figcaption:hover
 #colonne4 figure {
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 200px;
     height: 150px;
     background-color: white;
-    border: 3px solid white;
+    border: 0px solid white;
     border-radius: 20px;
     border-left: none;
 }
 
 #colonne4 figure img {
-    width: 197px;
-    height: 125px;
-    border: 3px solid white;
+    width: 200px;
+    height: 115px;
+    border: 0px solid white;
     border-radius: 20px 20px 0px 0px;
-    margin-top: -3px;
 }
-
-
 
 #colonne4 figcaption {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    justify-content: flex-start;
+    
+    text-align: center;
+
+
 }
+
+
 
 
 
