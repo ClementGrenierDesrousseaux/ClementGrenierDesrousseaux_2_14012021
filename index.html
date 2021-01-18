@@ -30,11 +30,11 @@
             <div id="formulaire_recherche">
                 <i class="fas fa-map-marker-alt"></i>
                 <form method="post" action="traitement.php">
-                    <input type="search" name="recherve_ville" id="recherve_ville" placeholder="Ex: Marseille, France">
+                    <input type="search" name="recherche_ville" id="recherche_ville" placeholder="Ex: Marseille, France">
                     <input type="submit" value="Rechercher" name="bouton_recherche" id="bouton_recherche">
                 </form>
             </div>
-            <div id="filtre_css">
+            <!-- <div id="filtre_css">
                 <p id="filtre_p">Filtres</p>
                 <div id="economie"><i class="fas fa-money-bill-wave"></i></div>
                 <div id="texte_economie">
@@ -51,6 +51,29 @@
                 <div id="animaux"><i class="fas fa-dog"></i></div>
                 <div id="texte_animaux">
                     <p>Animaux autorisés</p>
+                </div>
+            </div>
+            
+            -->
+            <div id="blocfiltre">
+                <p id="filtre_p">Filtres</p>
+                <div id="tous_filtres">
+                    <form method="post" class="filtre">
+                        <div class="icone"><i class="fas fa-money-bill-wave"></i></div>
+                        <input type="submit" value="    Economie" name="Economie">
+                    </form>
+                    <form method="post" class="filtre">
+                        <div class="icone"><i class="fas fa-child"></i></div>
+                        <input type="submit" value="    Familial" name="familial">
+                    </form>
+                    <form method="post" class="filtre">
+                        <div class="icone"><i class="fas fa-heart"></i></div>
+                        <input type="submit" value="    Romantique" name="romantique">
+                    </form>
+                    <form method="post" class="filtre">
+                        <div class="icone"><i class="fas fa-dog"></i></div>
+                        <input type="submit" value="    Animaux autorisés" name="animaux">
+                    </form>
                 </div>
             </div>
             <div id="information">
