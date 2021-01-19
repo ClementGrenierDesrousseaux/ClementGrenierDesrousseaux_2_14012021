@@ -4,10 +4,7 @@
     font-family: 'Raleway', arial, sans-serif;
 }
 
-#bloc_page h1 {
-
-
-}
+#bloc_page h1 {}
 
 
 
@@ -306,7 +303,7 @@ header nav a:hover {
     display: flex;
     align-items: center;
     height: 30px;
-    margin-left: 20px; 
+    margin-left: 20px;
 
 }
 
@@ -333,8 +330,7 @@ header nav a:hover {
     z-index: 1;
 }
 
-.filtre input:hover
-{
+.filtre input:hover {
     background-color: #deebff;
     border-color: #deebff;
 }
@@ -416,22 +412,19 @@ header nav a:hover {
 
 
 
-section i
-{
-	color: #0065FC;
+section i {
+    color: #0065FC;
 }
 
-#etoiles
-{
-	display: flex;
-	align-items: center;
+#etoiles {
+    display: flex;
+    align-items: center;
 }
 
-#etoile_grise i
-{
-	display: flex;
-	align-items: center;
-	color: #d9d9d9;
+#etoile_grise i {
+    display: flex;
+    align-items: center;
+    color: #d9d9d9;
 }
 
 
@@ -572,9 +565,8 @@ aside {
     margin-left: 50px;
 }
 
-#icone_noire 
-{
-	color: grey;
+#icone_noire {
+    color: grey;
 }
 
 #titre_aside {
@@ -617,13 +609,9 @@ aside .premiere_ligne_figcaption {
 
 }
 
-aside .deuxieme_ligne_figcaption {
+aside .deuxieme_ligne_figcaption {}
 
-}
-
-aside #etoiles {
-
-}
+aside #etoiles {}
 
 
 
@@ -668,6 +656,7 @@ aside #etoiles {
 #ancre_activites {
     font-weight: bold;
     margin-top: 50px;
+    font-size: 1.2em;
 }
 
 /*
@@ -827,8 +816,7 @@ aside #etoiles {
 }
 
 */
-#colonne_2_images
-{
+#colonne_2_images {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -870,20 +858,13 @@ aside #etoiles {
 footer {
     background-color: #f2f2f2;
     display: flex;
+    justify-content: space-around;
     margin-left: -50px;
     margin-right: -50px;
     margin-top: 50px;
 
 }
 
-#nos_hebergements {
-    margin-right: 225px;
-    margin-left: 225px;
-}
-
-#a_propos {
-    margin-left: 50px;
-}
 
 footer nav ul {
     list-style-type: none;
@@ -907,6 +888,7 @@ footer nav {
 
 footer p {
     font-weight: bold;
+    font-size: 1.2em;
 }
 
 footer nav a:hover {
@@ -914,4 +896,76 @@ footer nav a:hover {
     border-bottom: 1px solid #0065fc;
     /*Chox du bleu pour la couleur de hover pour rapperler les couleurs du site */
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PASSAGE EN MEDIA QUERIES */
+
+@media all and (max-width: 1024px) {
+    #bloc_page {
+        width: auto;
+    }
+
+    
+
+
+
+
+    #ancre_activites {
+        margin-left: 40px;
+    }
+
+
+    #activites {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #activites figure {
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px 10px #f2f2f2;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 200px;
+        width: 350px;
+    }
+
+    #activites figure img {
+        border-radius: 20px 20px 0px 0px;
+        height: 150px;
+        width: 350px;
+    }
+
+    #activites figcaption {
+        margin: 10px;
+        width: 350px;
+    }
+
+
+
+
+
+
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        margin: 25px;
+    }
+
+    footer nav {
+        margin-left: 20px;
+    }
 }
