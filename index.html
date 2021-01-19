@@ -57,23 +57,22 @@
             -->
             <div id="blocfiltre">
                 <p>Filtres</p>
-                
-                    <form method="post" class="filtre">
-                        <div class="icone"><i class="fas fa-money-bill-wave"></i></div>
-                        <input type="submit" value="    Economie" name="Economie">
-                    </form>
-                    <form method="post" class="filtre">
-                        <div class="icone"><i class="fas fa-child"></i></div>
-                        <input type="submit" value="    Familial" name="familial">
-                    </form>
-                    <form method="post" class="filtre">
-                        <div class="icone"><i class="fas fa-heart"></i></div>
-                        <input type="submit" value="    Romantique" name="romantique">
-                    </form>
-                    <form method="post" class="filtre">
-                        <div class="icone"><i class="fas fa-dog"></i></div>
-                        <input type="submit" value="    Animaux autorisés" name="animaux">
-                    </form>
+                <form method="post" class="filtre">
+                    <div class="icone"><i class="fas fa-money-bill-wave"></i></div>
+                    <input type="submit" value="    Economie" name="Economie">
+                </form>
+                <form method="post" class="filtre">
+                    <div class="icone"><i class="fas fa-child"></i></div>
+                    <input type="submit" value="    Familial" name="familial">
+                </form>
+                <form method="post" class="filtre">
+                    <div class="icone"><i class="fas fa-heart"></i></div>
+                    <input type="submit" value="    Romantique" name="romantique">
+                </form>
+                <form method="post" class="filtre">
+                    <div class="icone"><i class="fas fa-dog"></i></div>
+                    <input type="submit" value="    Animaux autorisés" name="animaux">
+                </form>
             </div>
             <div id="information">
                 <i class="fas fa-info"></i>
@@ -88,8 +87,8 @@
                         <figure>
                             <img src="images/hebergements/s/cannebiere_s.jpg" alt="Auberge la Cannebière" />
                             <figcaption>
-                                Auberge la Cannebière<br>
-                                Nuit à partir de 25€ <br>
+                                <span class="premiere_ligne_figcaption">Auberge la Cannebière<br></span>
+                                <span class="deuxieme_ligne_figcaption">Nuit à partir de 25€ <br></span>
                                 <div id="etoiles">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
@@ -104,8 +103,8 @@
                         <figure>
                             <img src="images/hebergements/s/port_s.jpg" alt="Hôtel du port" />
                             <figcaption>
-                                Hôtel du port<br>
-                                Nuit à partir de 52€ <br>
+                                <span class="premiere_ligne_figcaption">Hôtel du port<br></span>
+                                <span class="deuxieme_ligne_figcaption">Nuit à partir de 52€ <br></span>
                                 <div id="etoiles">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
@@ -120,8 +119,8 @@
                         <figure id="img_html_soleil">
                             <img src="images/hebergements/s/mouette_s.jpg" alt="Hôtel Les mouettes" />
                             <figcaption>
-                                Hôtel Les mouettes<br>
-                                Nuit à partir de 76€ <br>
+                                <span class="premiere_ligne_figcaption">Hôtel Les mouettes<br></span>
+                                <span class="deuxieme_ligne_figcaption">Nuit à partir de 76€ <br></span>
                                 <div id="etoiles">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
@@ -138,8 +137,8 @@
                         <figure id="img_html_soleil">
                             <img src="images/hebergements/s/mer_s.jpg" alt="Hôtel de la mer" />
                             <figcaption>
-                                Hôtel de la mer<br>
-                                Nuit à partir de 46€ <br>
+                                <span class="premiere_ligne_figcaption">Hôtel de la mer<br></span>
+                                <span class="deuxieme_ligne_figcaption">Nuit à partir de 46€ <br></span>
                                 <div id="etoiles">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
@@ -154,8 +153,8 @@
                         <figure id="img_html_soleil">
                             <img src="images/hebergements/s/panier_s.jpg" alt="Auberge Le Panier" />
                             <figcaption>
-                                Auberge Le Panier<br>
-                                Nuit à partir de 23€ <br>
+                                <span class="premiere_ligne_figcaption">Auberge Le Panier<br></span>
+                                <span class="deuxieme_ligne_figcaption">Nuit à partir de 23€ <br></span>
                                 <div id="etoiles">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
@@ -170,8 +169,8 @@
                         <figure id="img_html_soleil">
                             <img src="images/hebergements/s/amina_s.jpg" alt="Hôtel chez Amina" />
                             <figcaption>
-                                Hôtel chez Amina<br>
-                                Nuit à partir de 96€ <br>
+                                <span class="premiere_ligne_figcaption">Hôtel chez Amina<br></span>
+                                <span class="deuxieme_ligne_figcaption">Nuit à partir de 96€ <br></span>
                                 <div id="etoiles">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
@@ -194,8 +193,10 @@
                     <figure id="img_html_soleil">
                         <img src="images/hebergements/s/soleil_s.jpg" alt="Hôtel Le soleil du matin" />
                         <figcaption>
-                            Hôtel Le soleil du matin<br>
-                            Nuit à partir de 128€ <br>
+                            <div id="aside_titre_figcaption">
+                                <span class="premiere_ligne_figcaption">Hôtel Le soleil du matin<br></span>
+                                <span class="deuxieme_ligne_figcaption">Nuit à partir de 128€ <br></span>
+                            </div>
                             <div id="etoiles">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -210,9 +211,11 @@
                     <figure id="img_html_coeur">
                         <img src="images/hebergements/s/coeur_s.jpg" alt="Au coeur de l'eau Chambres d'hôtes" />
                         <figcaption>
-                            Au coeur de l'eau <br>
-                            Chambres d'hôtes<br>
-                            Nuit à partir de 71€ <br>
+                            <div id="aside_titre_figcaption">
+                                <span class="premiere_ligne_figcaption">Au coeur de l'eau <br>
+                                    Chambres d'hôtes<br></span>
+                                <span class="deuxieme_ligne_figcaption"> Nuit à partir de 71€ <br></span>
+                            </div>
                             <div id="etoiles">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -227,8 +230,10 @@
                     <figure id="img_html_toutbleu">
                         <img src="images/hebergements/s/toutbleu_s.jpg" alt="Hôtel Tout bleu et Blanc" />
                         <figcaption>
-                            Hôtel Tout bleu et Blanc <br>
-                            Nuit à partir de 68€ <br>
+                            <div id="aside_titre_figcaption">
+                                <span class="premiere_ligne_figcaption">Hôtel Tout bleu et Blanc <br></span>
+                                <span class="deuxieme_ligne_figcaption">Nuit à partir de 68€ <br></span>
+                            </div>
                             <div id="etoiles">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -241,17 +246,19 @@
                 </a>
             </aside>
         </section>
-        <h1 id="ancre_activites">Activités à Marseille</h1>
+        <p id="ancre_activites">Activités à Marseille</p>
         <section id="activites">
-            <a href="#">
-                <figure>
-                    <img src="images/activites/s/port_s.jpg" alt="Vieux Port" />
-                    <figcaption>
-                        Vieux Port
-                    </figcaption>
-                </figure>
-            </a>
-            <div id="colonne2">
+            <div id="colonne_1_image">
+                <a href="#">
+                    <figure>
+                        <img src="images/activites/s/port_s.jpg" alt="Vieux Port" />
+                        <figcaption>
+                            Vieux Port
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div id="colonne_2_images">
                 <a href="#">
                     <figure>
                         <img src="images/activites/s/fort_s.jpg" alt="Fort de Pomègues" />
@@ -269,15 +276,17 @@
                     </figure>
                 </a>
             </div>
-            <a href="#">
-                <figure>
-                    <img src="images/activites/s/calanques_s.jpg" alt="Parc National des Calanques" />
-                    <figcaption>
-                        Parc National des Calanques
-                    </figcaption>
-                </figure>
-            </a>
-            <div id="colonne4">
+            <div id="colonne_1_image">
+                <a href="#">
+                    <figure>
+                        <img src="images/activites/s/calanques_s.jpg" alt="Parc National des Calanques" />
+                        <figcaption>
+                            Parc National des Calanques
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div id="colonne_2_images">
                 <a href="#">
                     <figure>
                         <img src="images/activites/s/garde_s.jpg" alt="Notre-Dame-de-la-Garde" />
