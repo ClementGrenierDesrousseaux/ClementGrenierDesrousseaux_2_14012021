@@ -1,5 +1,10 @@
 #bloc_page {
-	width: 90%;
+	width: 85%;
 	margin: auto;
 	height: auto;
+}
+
+.hebergement_et_populaire {
+	display: flex;
+	justify-content: space-between;
 }

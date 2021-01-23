@@ -1,0 +1,46 @@
+aside {
+	width: 30%;
+	height: 600px;
+	background-color: #f2f2f2;
+	border-radius: 20px;
+}
+
+.en_tete_populaire {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+.bloc_populaire {
+	display: flex;
+	flex-direction: column;
+	height: 90%;
+}
+
+aside figure {
+	background-color: white;
+	display: flex;
+	height: 25%;
+	border-radius: 20px;
+	padding: 4px;
+}
+
+aside figure img {
+	object-fit: cover;
+	width: 40%;
+	border-radius: 20px 0px 0px 20px;
+
+}
+
+aside figcaption {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.en_tete_hebergement_populaire {
+	display: flex;
+	flex-direction: column;
+}
