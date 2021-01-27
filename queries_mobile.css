@@ -1,0 +1,186 @@
+@media screen and (max-width: 815px) {
+    .blocpage {
+        width: auto;
+    }
+
+    header{
+    	height: auto;
+    } 
+
+    .categorie_recherche {
+    	width: auto;
+    	height: 50px;
+    	display: flex;
+    	align-items: center;
+
+    }
+
+    .categorie_filtre {
+    	display: flex;
+    	flex-wrap: wrap;
+    	height: auto;
+    }
+
+    .ligne_filtre {
+    	display: flex;
+    	flex-wrap: wrap;
+    	height: auto;
+    }
+
+    .filtre {
+    	padding: 0;
+    	padding-right: 15px;
+    	margin-top: -20px;
+    	margin-left: 10px;
+    	height: auto;
+    }
+
+
+    .hebergement_et_populaire {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    aside {
+        width: auto;
+        border-radius: 0px;
+        height: 600px;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: auto;
+        height: auto;
+    }
+
+    article figure {
+        width: auto;
+        height: 200px;
+        box-shadow: 0px 0px 20px 20px #f2f2f2;
+    }
+
+    article figure img {
+        width: auto;
+    }
+
+    article figcaption {
+        width: auto;
+    }
+
+    .premiere_ligne {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .deuxieme_ligne {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .activite_marseille {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+
+    .bloc_activite {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+
+    .bloc_activite figure {
+        width: auto;
+        height: 200px;
+    }
+
+    .bloc_activite figure img {
+        width: auto;
+
+    }
+
+    .bloc_activite figcaption {
+        height: 50px;
+        width: auto;
+    }
+
+    .colonne2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: auto;
+        height: auto;
+    }
+
+    .colonne2 figure {
+        width: auto;
+        height: 200px;
+    }
+
+    .colonne2 figure img {
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+    }
+
+    .colonne2 figcaption {
+        height: 20%;
+    }
+
+    .colonne3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: auto;
+        height: auto;
+    }
+
+    .colonne3 figure {
+        width: auto;
+        height: 200px;
+    }
+
+    .colonne3 figure img {
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+    }
+
+    .colonne3 figcaption {
+        height: 20%;
+    }
+
+    .colonne4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: auto;
+        height: auto;
+    }
+
+    .colonne4 figure {
+        width: auto;
+        height: 200px;
+    }
+
+    .colonne4 figure img {
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+    }
+
+    .colonne4 figcaption {
+        height: 20%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
