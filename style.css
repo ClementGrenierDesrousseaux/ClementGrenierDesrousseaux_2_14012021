@@ -1,22 +1,27 @@
 /* BLOC PAGE */
 
+
+body {
+    margin: 0px;
+    font-family: Raleway;
+    height: auto;
+
+}
+
 #bloc_page {
     width: 85%;
     margin: auto;
     height: auto;
 }
 
-.hebergement_et_populaire {
-    display: flex;
-    justify-content: space-between;
-}
+
 
 /* HEADER */
 
 header {
     display: flex;
     flex-direction: column;
-    height: 400px;
+    height: auto;
 }
 
 .navigation {
@@ -44,6 +49,11 @@ header {
 .en_tete a:hover {
     color: #0065fc;
     border-top: 2px solid #0065fc;
+}
+
+#inscrire {
+    font-weight: bold;
+    color: #0065FC;
 }
 
 .titre {
@@ -179,6 +189,15 @@ header form {
 
 /* ARTICLE HEBERGEMENT */
 
+.hebergement_et_populaire {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hebergement_et_populaire {
+    height: auto;
+}
+
 article {
     width: 65%;
     height: 600px;
@@ -186,44 +205,56 @@ article {
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-
+    justify-content: center;
+    padding-left: 30px;
 }
 
 .bloc_hebergement {
     display: flex;
     flex-direction: column;
     height: 80%;
-
+    margin: 0px;
+    width: 95%;
 }
 
 .premiere_ligne {
     display: flex;
+    justify-content: space-between;
     height: 50%;
 }
 
 .deuxieme_ligne {
     display: flex;
     height: 50%;
+    justify-content: space-between;
+}
+
+article a {
+    width: 30%;
+    height: 90%;
+    text-decoration: none;
+    color: black;
 }
 
 article figure {
     display: flex;
     flex-direction: column;
-    width: 25%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
     background-color: white;
     padding: 4px;
+    margin: 0px;
 }
 
 article figure img {
     object-fit: cover;
-    height: 75%;
+    height: 70%;
     border-radius: 20px 20px 0px 0px;
 }
 
 article figcaption {
-    height: 25%;
+    height: 30%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -254,6 +285,21 @@ article figcaption {
     color: #d9d9d9;
 }
 
+.titre_hebergement {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.afficher_plus_hebergement {
+    font-weight: bold;
+    font-size: 1.0em;
+}
+
+.en_tete_hebergement_populaire {
+    display: flex;
+    flex-direction: column;
+}
+
 /* ASIDE */
 
 aside {
@@ -276,6 +322,8 @@ aside {
     display: flex;
     flex-direction: column;
     height: 90%;
+    justify-content: space-around;
+    align-items: center;
 }
 
 aside figure {
@@ -284,13 +332,14 @@ aside figure {
     height: 25%;
     border-radius: 20px;
     padding: 4px;
+    margin: 0px;
+    width: 80%;
 }
 
 aside figure img {
     object-fit: cover;
     width: 40%;
     border-radius: 20px 0px 0px 20px;
-
 }
 
 aside figcaption {
@@ -300,159 +349,173 @@ aside figcaption {
 
 }
 
-.en_tete_hebergement_populaire {
-    display: flex;
-    flex-direction: column;
+.en_tete_populaire p {
+    font-weight: bold;
+    font-size: 1.2em;
 }
+
+.en_tete_populaire i {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+
+
+
 
 /* ARTICLE ACTIVITE */
 
 .activite_marseille {
-    height: 350px;
+    height: 400px;
     width: auto;
-}
-
-.activite_marseille figure {
-    border-radius: 20px;
-}
-
-.activite_marseille figure img {
-    border-radius: 20px 20px 0px 0px; 
-}
-
-
-.bloc_activite {
-    display: flex;
-    justify-content: space-between;
-    height: 100%; 
-}
-
-.bloc_activite figure {
-    box-shadow: 0px 0px 20px 20px #f2f2f2;
-}
-
-.bloc_activite figcaption {
-    display: flex;
-    align-items: center;
-    margin-left: 15px;
+    margin: 0px;
+    padding-bottom: 5%;
     font-weight: bold;
 }
 
-.colonne1 {
-    display: flex;
-    width: 25%;
-    height: 100%;
+#ancre_activite {
+    font-weight: bold;
+    font-size: 1.2em;
+}
 
+.activite_marseille a {
+    text-decoration: none;
+    color: black;
+}
+
+.bloc_activite {
+    display: flex;
+    height: 100%;
+    margin: 0px;
+    justify-content: space-between;
+}
+
+.bloc_activite figure {
+
+}
+
+.colonne1 {
+    width: 20%;
+    height: 100%;
 }
 
 .colonne1 figure {
-    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    box-shadow: 0px 0px 20px 10px #F2F2F2;
+    border-radius: 20px;
+        margin-bottom: 30px;
 }
 
 .colonne1 figure img {
+    object-fit: cover;
     width: 100%;
     height: 90%;
-    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .colonne1 figcaption {
+    width: 100%;
     height: 10%;
     display: flex;
+    align-items: center;
+    padding-left: 15px;
 }
 
 .colonne2 {
+    width: 20%;
+}
+
+.colonne2 figure {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 25%;
-    height: 100%;
+    width: 100%;
+    height: 50%;
+    margin: 0px;
+    box-shadow: 0px 0px 20px 10px #F2F2F2;
+    border-radius: 20px;
 }
 
 .colonne2 figure img {
     width: 100%;
     height: 80%;
     object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .colonne2 figcaption {
+    width: 100%;
     height: 20%;
-}
-
-.figure_fort {
-    height: 50%;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-
-.figure_fort figure {
-
-    width: 100%;
-    height: 95%;
-}
-
-.figure_frioul {
-    height: 35%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-
-.figure_frioul figure{
-    width: 100%;
-    height: 95%;
+    align-items: center;
+    padding-left: 15px;
 }
 
 .colonne3 {
-    display: flex;
-    width: 25%;
+    width: 20%;
     height: 100%;
-
 }
 
 .colonne3 figure {
-    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    box-shadow: 0px 0px 20px 10px #F2F2F2;
+    border-radius: 20px;
 }
 
 .colonne3 figure img {
+    object-fit: cover;
     width: 100%;
     height: 90%;
-    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .colonne3 figcaption {
+    width: 100%;
     height: 10%;
     display: flex;
+    align-items: center;
+    padding-left: 15px;
 }
 
 .colonne4 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 25%;
-    height: 100%;
+    width: 20%;
 }
 
 .colonne4 figure {
     display: flex;
     flex-direction: column;
-    height: 45%;
+    width: 100%;
+    height: 50%;
+    margin: 0px;
+    box-shadow: 0px 0px 20px 10px #F2F2F2;
+    border-radius: 20px;
 }
 
 .colonne4 figure img {
     width: 100%;
     height: 80%;
     object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .colonne4 figcaption {
+    width: 100%;
     height: 20%;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
 }
 
 /* FOOTER */
@@ -460,13 +523,14 @@ aside figcaption {
 footer {
     background-color: #f2f2f2;
     display: flex;
+    height: 175px;
+    width: auto;
+    margin: 0px;
 }
 
 .colonne {
     flex-basis: 35%
 }
-
-
 
 footer ul li {
     margin-top: 10px;
@@ -476,6 +540,7 @@ footer ul li {
 footer a {
     text-decoration: none;
     color: black;
+    font-size: 0.8em;
 }
 
 footer span {
