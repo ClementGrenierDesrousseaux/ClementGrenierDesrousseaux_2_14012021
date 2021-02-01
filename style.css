@@ -26,17 +26,13 @@ header {
 
 .navigation {
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
-.en_tete {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
 .en_tete img {
-    width: 50%;
+    width: 125px;
     height: auto;
 }
 
@@ -51,19 +47,25 @@ header {
     border-top: 2px solid #0065fc;
 }
 
+.enfant_en_tete:nth-of-type(1) {
+    flex-basis: 70%;
+}
+
+
+
 #inscrire {
     font-weight: bold;
     color: #0065FC;
 }
 
 .titre {
-    display: flex;
-    align-items: center;
+    font-size: 0.9em;
+    margin-bottom: 10px;
 }
 
-.sous_titre {
-    display: flex;
-    align-items: center;
+.titre_gras {
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
 .categorie_recherche {
@@ -72,8 +74,8 @@ header {
 }
 
 .icone_recherche {
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
 }
 
 .icone_recherche i {
@@ -87,16 +89,18 @@ header {
 }
 
 header form {
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: auto;
     display: flex;
 }
 
 .barre_recherche {
     border: 1px solid #f2f2f2;
-    height: 30px;
-    width: 150px;
-
+    height: 50px;
+    width: 225px;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-left: 10px;
 }
 
 .bouton_recherche {
@@ -104,9 +108,10 @@ header form {
     color: white;
     border: 1px solid #0065fc;
     border-radius: 0px 15px 15px 0px;
-    height: 30px;
-    width: 100px;
-
+    height: 50px;
+    width: 125px;
+    font-weight: bold;
+    font-size: 1.1em;
 }
 
 .categorie_filtre {
@@ -167,6 +172,7 @@ header form {
     display: flex;
     align-items: center;
     height: auto;
+    margin-bottom: 20px;
     width: auto;
 }
 
@@ -185,6 +191,8 @@ header form {
 
 .information_nombre_logement p {
     padding-left: 10px;
+    display: flex;
+    font-size: 0.9em;
 }
 
 /* ARTICLE HEBERGEMENT */
@@ -200,7 +208,7 @@ header form {
 
 article {
     width: 65%;
-    height: 600px;
+    height: 650px;
     background-color: #F2F2F2;
     display: flex;
     flex-direction: column;
@@ -231,7 +239,7 @@ article {
 
 article a {
     width: 30%;
-    height: 90%;
+    height: 80%;
     text-decoration: none;
     color: black;
 }
@@ -304,7 +312,7 @@ article figcaption {
 
 aside {
     width: 30%;
-    height: 600px;
+    height: 650px;
     background-color: #f2f2f2;
     border-radius: 20px;
 }
@@ -346,6 +354,7 @@ aside figcaption {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 10px;
 
 }
 
@@ -359,6 +368,10 @@ aside figcaption {
     font-size: 1.2em;
 }
 
+.prix_hebergement_populaire {
+    margin-top: 10px;
+    font-size: 80%;
+}
 
 
 

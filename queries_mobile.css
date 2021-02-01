@@ -1,27 +1,79 @@
-@media screen and (max-width: 815px) {
-    .blocpage {
-        width: auto;
-    }
+@media screen and (max-width: 767px) {
+    .blocpage {}
 
-    header{
-    	height: auto;
+    header {
+        height: auto;
+        background-color: blue;
     }
 
     .en_tete {
         display: flex;
+        flex-wrap: wrap;
     }
 
     .en_tete a {
         font-size: 1em;
-    } 
+    }
 
     .en_tete img {
-        width: 20%;
+        width: 125px;
         height: auto;
     }
 
     .inscrire {
         color: #0065FC;
+    }
+
+    .navigation {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .enfant_en_tete:nth-of-type(2) {
+        order: 3
+    }
+
+    .enfant_en_tete:nth-of-type(3) {
+        order: 4
+    }
+
+    .enfant_en_tete:nth-of-type(4) {
+        order: 2
+    }
+
+    .enfant_en_tete:nth-of-type(1) {
+        flex-basis: 60%;
+    }
+
+    .enfant_en_tete:nth-of-type(2) {
+        flex-basis: 50%;
+        display: flex;
+        justify-content: center;
+        border-bottom: 3px solid #f2f2f2;
+    }
+
+    .enfant_en_tete:nth-of-type(3) {
+        flex-basis: 50%;
+        display: flex;
+        justify-content: center;
+        border-bottom: 3px solid #f2f2f2;
+
+    }
+
+    .enfant_en_tete:nth-of-type(4) {
+        display: flex;
+    }
+
+    .enfant_en_tete:nth-of-type(2):hover {
+        border-bottom: 3px solid #0065fc;
+    }
+
+    .enfant_en_tete:nth-of-type(3):hover {
+        border-bottom: 3px solid #0065fc;
+    }
+
+    .en_tete a:hover {
+        border-top: 0px;
     }
 
 
@@ -31,31 +83,57 @@
 
 
     .categorie_recherche {
-    	width: auto;
-    	height: 50px;
-    	display: flex;
-    	align-items: center;
+        width: auto;
+        height: auto;
+        display: flex;
+        align-items: center;
 
+    }
+
+    .icone_recherche {
+        height: 40px;
+        width: 40px;
+    }
+
+    .icone_recherche i {
+        height: 100%;
+        width: 100%;
+    }
+
+    header form {
+        height: 40px;
+        width: auto;
+        display: flex;
+    }
+
+    .barre_recherche {
+        height: 40px;
+        width: 60%;
+    }
+
+    .bouton_recherche {
+        height: 40px;
+        width: 40%;
     }
 
     .categorie_filtre {
-    	display: flex;
-    	flex-wrap: wrap;
-    	height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
     }
 
     .ligne_filtre {
-    	display: flex;
-    	flex-wrap: wrap;
-    	height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
     }
 
     .filtre {
-    	padding: 0;
-    	padding-right: 15px;
-    	margin-top: -20px;
-    	margin-left: 10px;
-    	height: auto;
+        padding: 0;
+        padding-right: 15px;
+        margin-top: -20px;
+        margin-left: 10px;
+        height: auto;
     }
 
 
