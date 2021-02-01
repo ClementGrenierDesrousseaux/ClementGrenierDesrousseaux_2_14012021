@@ -5,7 +5,6 @@
     }
 
     header {
-        background-color: pink;
     }
 
     .categorie_filtre {
@@ -151,7 +150,7 @@
     }
 
     .activite_marseille {
-    	height: 300px;
+        height: 300px;
     }
 
 }

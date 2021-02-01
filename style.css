@@ -419,9 +419,7 @@ aside figcaption {
     justify-content: space-between;
 }
 
-.bloc_activite figure {
-
-}
+.bloc_activite figure {}
 
 .colonne1 {
     width: 20%;
@@ -436,7 +434,7 @@ aside figcaption {
     margin: 0px;
     box-shadow: 0px 0px 20px 10px #F2F2F2;
     border-radius: 20px;
-        margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .colonne1 figure img {
