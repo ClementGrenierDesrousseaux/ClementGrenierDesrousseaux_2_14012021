@@ -142,11 +142,6 @@
         flex-direction: column-reverse;
     }
 
-
-
-
-
-
     aside {
         width: auto;
         border-radius: 0px;
@@ -157,19 +152,6 @@
     aside figure {
         /* width: 100%; */
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     article {
         display: flex;
@@ -201,6 +183,7 @@
     article figcaption {
         width: auto;
         height: 50px;
+        margin-left: 15px;
     }
 
     .bloc_hebergement {

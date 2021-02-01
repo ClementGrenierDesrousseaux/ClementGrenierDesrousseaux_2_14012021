@@ -334,6 +334,16 @@ aside {
     align-items: center;
 }
 
+aside a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 aside figure {
     background-color: white;
     display: flex;
@@ -342,6 +352,7 @@ aside figure {
     padding: 4px;
     margin: 0px;
     width: 80%;
+    height: 70%;
 }
 
 aside figure img {
