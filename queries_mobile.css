@@ -1,6 +1,4 @@
 @media screen and (max-width: 767px) {
-    .blocpage {}
-
     header {
         height: auto;
     }
@@ -76,11 +74,6 @@
     }
 
 
-
-
-
-
-
     .categorie_recherche {
         width: auto;
         height: auto;
@@ -107,12 +100,20 @@
 
     .barre_recherche {
         height: 40px;
-        width: 60%;
+        width: 100%;
     }
 
     .bouton_recherche {
         height: 40px;
         width: 40%;
+        display: none;
+    }
+
+    .icone_bouton_rechercher {
+        display: flex;
+        height: 40px;
+        width: 45px;
+        margin-left: -10px;
     }
 
     .categorie_filtre {

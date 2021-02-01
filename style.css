@@ -92,6 +92,7 @@ header form {
     height: 50px;
     width: auto;
     display: flex;
+    align-items: center;
 }
 
 .barre_recherche {
@@ -112,6 +113,18 @@ header form {
     width: 125px;
     font-weight: bold;
     font-size: 1.1em;
+}
+
+.icone_bouton_rechercher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0065FC;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    color: white;
+    display: none; 
 }
 
 .categorie_filtre {
