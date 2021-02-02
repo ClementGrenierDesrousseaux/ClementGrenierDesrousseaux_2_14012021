@@ -1,4 +1,9 @@
 @media screen and (max-width: 767px) {
+
+    .bloc_page {
+        margin: 0px;
+    }
+
     header {
         height: auto;
     }
@@ -208,7 +213,7 @@
     .activite_marseille {
         display: flex;
         flex-direction: column;
-        width: auto;
+        width: 95%;
         height: auto;
     }
 
@@ -331,6 +336,8 @@
         display: flex;
         flex-direction: column;
         height: auto;
+        width: 100%;
+        margin: 0px;
     }
 
     footer ul {
