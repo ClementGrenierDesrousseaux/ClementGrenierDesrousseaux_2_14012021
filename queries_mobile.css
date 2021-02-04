@@ -2,15 +2,27 @@
 
     .bloc_page {
         margin: 0px;
+        width: 100%;
+    }
+
+    .ipad {
+        display: none;
+    }
+
+    .iphone {
+        display: flex;
     }
 
     header {
         height: auto;
+        width: 100%;
     }
 
     .en_tete {
         display: flex;
         flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
     }
 
     .en_tete a {
@@ -155,7 +167,9 @@
     }
 
     aside figure {
-        /* width: 100%; */
+        height: 150px;
+        width: 90%;
+
     }
 
     article {
