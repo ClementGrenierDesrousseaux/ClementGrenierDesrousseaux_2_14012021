@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
     <meta charset="utf-8">
@@ -21,7 +21,7 @@
             <div class="en_tete">
                 <div class="navigation">
                     <div class="enfant_en_tete">
-                        <img src="images/logo/Reservia_petit.png">
+                        <img src="images/logo/Reservia_petit.png" alt="Logo Reservia">
                     </div>
                     <div class="enfant_en_tete">
                         <a href="#ancre_hebergement">Hébergements</a>
@@ -79,9 +79,9 @@
         </header>
         <section class="hebergement_et_populaire">
             <article class="hebergement">
-                <span class="titre_hebergement">
+                <div class="titre_hebergement">
                     <p id="ancre_hebergement">Hébergements à Marseille</p>
-                </span>
+                </div>
                 <div class="bloc_hebergement">
                     <div class="premiere_ligne">
                         <a href="#">
@@ -196,13 +196,14 @@
                         </a>
                     </div>
                 </div>
-                <span class="afficher_plus_hebergement"><a href="#">Afficher plus</a></span> <!-- Lien ou texte normal ? -->
+                <span class="afficher_plus_hebergement"><a href="#">Afficher plus</a></span>
+                <!-- Lien ou texte normal ? -->
             </article>
             <aside class="populaire">
                 <div class="en_tete_populaire">
-                    <span class="titre_populaire">
+                    <div class="titre_populaire">
                         <p>Les plus populaires</p>
-                    </span>
+                    </div>
                     <i class="fas fa-chart-line"></i>
                 </div>
                 <div class="bloc_populaire">
@@ -270,73 +271,75 @@
             </aside>
         </section>
         <section class="activite_marseille">
-        <div class="titre_activite">
-            <p id="ancre_activite">Activités à Marseille</p>
-        </div>
-        <div class="bloc_activite">
-            <div class="colonne1">
-                <a href="#">
-                    <figure class="figure_port">
-                        <img src="images/activites/s/port_s.jpg">
-                        <figcaption>Vieux port</figcaption>
-                    </figure>
-                </a>
+            <div class="titre_activite">
+                <p id="ancre_activite">Activités à Marseille</p>
             </div>
-            <div class="colonne2">
-                <a href="#" class="figure_fort">
-                    <figure>
-                        <img src="images/activites/s/fort_s.jpg">
-                        <figcaption>Fort de Pomègues</figcaption>
-                    </figure>
-                </a>
-                <a href="#" class="figure_frioul">
-                    <figure>
-                        <img src="images/activites/s/frioul_s.jpg">
-                        <figcaption>Îles du Frioul</figcaption>
-                    </figure>
-                </a>
+            <div class="bloc_activite">
+                <div class="colonne1">
+                    <a href="#">
+                        <figure class="figure_port">
+                            <img src="images/activites/s/port_s.jpg">
+                            <figcaption>Vieux port</figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="colonne2">
+                    <a href="#" class="figure_fort">
+                        <figure>
+                            <img src="images/activites/s/fort_s.jpg">
+                            <figcaption>Fort de Pomègues</figcaption>
+                        </figure>
+                    </a>
+                    <a href="#" class="figure_frioul">
+                        <figure>
+                            <img src="images/activites/s/frioul_s.jpg">
+                            <figcaption>Îles du Frioul</figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="colonne3">
+                    <a href="#">
+                        <figure class="figure_calanques">
+                            <img src="images/activites/s/calanques_s.jpg">
+                            <figcaption>Parc National des Calanques</figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="colonne4">
+                    <a href="#" class="figure_garde">
+                        <figure>
+                            <img src="images/activites/s/garde_s.jpg">
+                            <figcaption>Notre-Dame-de-la-Garde</figcaption>
+                        </figure>
+                    </a>
+                    <a href="#" class="figure_longchamp">
+                        <figure>
+                            <img src="images/activites/s/longchamp_s.jpg">
+                            <figcaption>Parc Longchamp</figcaption>
+                        </figure>
+                    </a>
+                </div>
             </div>
-            <div class="colonne3">
-                <a href="#">
-                    <figure class="figure_calanques">
-                        <img src="images/activites/s/calanques_s.jpg">
-                        <figcaption>Parc National des Calanques</figcaption>
-                    </figure>
-                </a>
-            </div>
-            <div class="colonne4">
-                <a href="#" class="figure_garde">
-                    <figure>
-                        <img src="images/activites/s/garde_s.jpg">
-                        <figcaption>Notre-Dame-de-la-Garde</figcaption>
-                    </figure>
-                </a>
-                <a href="#" class="figure_longchamp">
-                    <figure>
-                        <img src="images/activites/s/longchamp_s.jpg">
-                        <figcaption>Parc Longchamp</figcaption>
-                    </figure>
-                </a>
-            </div>
-        </div>
-    </section>
+        </section>
         <footer>
             <div class="colonne">
-                <ul><span>A propos</span>
+                <div>A propos</div>
+                <ul>
                     <li><a href="#">Fonctionnement du site</a></li>
                     <li><a href="#">Conditions générales de vente</a></li>
                     <li><a href="#">Données et confidentialité</a></li>
                 </ul>
             </div>
             <div class="colonne">
-                <ul><span>Nos hébergements</span>
+                <div>Nos hébergements</div>
+                <ul>
                     <li><a href="#">Charte qualité</a></li>
                     <li><a href="#">Soumettre votre hôtel</a></li>
                 </ul>
             </div>
             <div class="colonne">
+                <div class="titre_assistance">Assistance</div>
                 <ul>
-                    <span class="titre_assistance">Assistance</span>
                     <li><a href="#">Centre d'aide</a></li>
                     <li><a href="#">Nous contacter</a></li>
                 </ul>

@@ -1,5 +1,9 @@
 /* BLOC PAGE */
 
+html {
+    scroll-behavior: smooth;
+}
+
 .iphone {
     display: none;
 }
@@ -17,6 +21,7 @@ body {
     margin: auto;
     height: auto;
 }
+
 
 /* HEADER */
 
@@ -208,6 +213,7 @@ header form {
     font-size: 0.9em;
 }
 
+
 /* ARTICLE HEBERGEMENT */
 
 .hebergement_et_populaire {
@@ -288,7 +294,6 @@ article figcaption {
 .nom_hebergement {
     font-weight: bold;
     font-size: 100%;
-
 }
 
 .prix_hebergement {
@@ -323,6 +328,7 @@ article figcaption {
     flex-direction: column;
 }
 
+
 /* ASIDE */
 
 aside {
@@ -339,7 +345,6 @@ aside {
     padding-left: 15px;
     padding-right: 15px;
 }
-
 
 .bloc_populaire {
     display: flex;
@@ -396,6 +401,7 @@ aside figcaption {
     margin-top: 10px;
     font-size: 80%;
 }
+
 
 /* ARTICLE ACTIVITE */
 
@@ -474,7 +480,7 @@ aside figcaption {
     object-fit: cover;
     height: 166px;
     width: 100%;
-} 
+}
 
 .figure_frioul img {
     object-fit: cover;
@@ -513,6 +519,7 @@ aside figcaption {
     height: 130px;
     width: 100%;
 }
+
 
 /* FOOTER */
 
