@@ -4,14 +4,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.iphone {
-    display: none;
-}
-
-.ipad {
-    display: none;
-}
-
 body {
     font-family: Raleway;
     height: auto;
@@ -37,6 +29,11 @@ header {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+}
+
+.en_tete {
+    width: 100%;
+    margin: 0px;
 }
 
 .en_tete img {

@@ -1,18 +1,7 @@
-@media (min-width: 768px) and (max-width: 992px) {
-
+@media (min-width: 767px) and (max-width: 992px) {
     body {
         font-size: 0.8em;
     }
-
-    .iphone {
-        display: none;
-    }
-
-    .ipad {
-        display: flex;
-    }
-
-
     .categorie_filtre {
         display: flex;
         align-items: center;
@@ -21,16 +10,13 @@
         margin-top: 20px;
         width: auto;
     }
-
     .filtre_p {
         display: flex;
         align-items: center;
         justify-content: center;
         height: 100%;
         width: 100%;
-    
     }
-
     .ligne_filtre {
         display: flex;
         align-items: center;
@@ -38,7 +24,6 @@
         height: auto;
         width: auto;
     }
-
     .filtre {
         padding: 0;
         padding-right: 15px;
@@ -46,19 +31,16 @@
         margin-left: 10px;
         height: auto;
     }
-
     .hebergement_et_populaire {
         display: flex;
         flex-direction: column-reverse;
         width: 100%;
     }
-
     article {
         width: 100%;
         padding: 0;
         background-color: white;
     }
-
     .bloc_hebergement {
         display: flex;
         flex-direction: column;
@@ -67,15 +49,12 @@
         width: 95%;
         padding-left: 30px;
     }
-
-
     article a {
         width: 30%;
         height: 80%;
         text-decoration: none;
         color: black;
     }
-
     article figure {
         display: flex;
         flex-direction: column;
@@ -86,16 +65,13 @@
         padding: 4px;
         margin: 0px;
         box-shadow: 0px 0px 20px 10px #F2F2F2;
-
     }
-
     article figure img {
         object-fit: cover;
         height: 60%;
         width: 100%;
         border-radius: 20px 20px 0px 0px;
     }
-
     article figcaption {
         height: 40%;
         width: 100%;
@@ -104,39 +80,32 @@
         justify-content: space-around;
         margin-left: 5%;
     }
-
     .premiere_ligne {
         display: flex;
         justify-content: space-between;
         height: 50%;
     }
-
     .deuxieme_ligne {
         display: flex;
         height: 50%;
         justify-content: space-between;
     }
-
-
     aside {
         width: 100%;
         height: 300px;
         margin-bottom: 30px;
     }
-
     .bloc_populaire {
         display: flex;
         flex-direction: row;
         height: 80%;
     }
-
     aside a {
         width: 30%;
         height: 80%;
         text-decoration: none;
         color: black;
     }
-
     aside figure {
         display: flex;
         flex-direction: column;
@@ -146,16 +115,13 @@
         background-color: white;
         padding: 4px;
         margin: 0px;
-
     }
-
     aside figure img {
         object-fit: cover;
         height: 60%;
         width: 100%;
         border-radius: 20px 20px 0px 0px;
     }
-
     aside figcaption {
         height: 40%;
         width: 100%;
@@ -164,13 +130,10 @@
         justify-content: space-around;
         margin-left: 5%;
     }
-
     footer {
         margin-top: 25px;
     }
-
     .activite_marseille {
         height: 400px;
     }
-
 }
