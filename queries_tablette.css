@@ -2,39 +2,19 @@
     body {
         font-size: 0.8em;
     }
-    .categorie_filtre {
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        height: auto;
-        margin-top: 20px;
-        width: auto;
-    }
-    .filtre_p {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-        width: 100%;
-    }
-    .ligne_filtre {
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        height: auto;
-        width: auto;
-    }
-    .filtre {
-        padding: 0;
-        padding-right: 15px;
-        margin-top: -20px;
-        margin-left: 10px;
-        height: auto;
+    .filtre p {
+        font-size: 0.9em;
     }
     .hebergement_et_populaire {
         display: flex;
         flex-direction: column-reverse;
         width: 100%;
+    }
+    .titre_hebergement {
+        margin-left: 35px;
+    }
+    .afficher_plus_hebergement {
+        margin-left: 35px;
     }
     article {
         width: 100%;
@@ -135,5 +115,8 @@
     }
     .activite_marseille {
         height: 400px;
+    }
+    .activite_marseille figcaption {
+        font-size: 0.8em;
     }
 }
