@@ -28,20 +28,12 @@
         display: flex;
         flex-wrap: wrap;
     }
-    .enfant_en_tete:nth-of-type(2) {
-        order: 3
-    }
-    .enfant_en_tete:nth-of-type(3) {
-        order: 4
-    }
-    .enfant_en_tete:nth-of-type(4) {
-        order: 2
-    }
     .enfant_en_tete:nth-of-type(1) {
         flex-basis: 60%;
         width: auto;
     }
     .enfant_en_tete:nth-of-type(2) {
+        order: 3;
         flex-basis: 50%;
         width: auto;
         display: flex;
@@ -49,6 +41,7 @@
         border-bottom: 3px solid #f2f2f2;
     }
     .enfant_en_tete:nth-of-type(3) {
+        order: 4;
         flex-basis: 50%;
         width: auto;
         display: flex;
@@ -56,6 +49,7 @@
         border-bottom: 3px solid #f2f2f2;
     }
     .enfant_en_tete:nth-of-type(4) {
+        order: 2;
         display: flex;
         justify-content: flex-end;
         flex-basis: 40%;
@@ -286,7 +280,11 @@
         width: 100%;
         margin: 0px;
     }
+    footer .colonne {
+        margin-left: 0px;
+    }
     footer ul {
         padding: 0px;
+        margin-left: 0px;
     }
 }
